@@ -1,0 +1,35 @@
+line_length:
+  warning: 300
+
+type_body_length:
+  warning: 500
+
+file_length:
+  warning: 750
+
+function_body_length:
+  warning: 70
+
+identifier_name:
+  min_length: 3
+  excluded:
+    - id
+    - x
+    - y
+
+return_arrow_whitespace: warning
+empty_enum_arguments: warning
+unused_optional_binding: warning
+
+disabled_rules:
+  - trailing_whitespace
+  - redundant_optional_initialization
+
+opt_in_rules:
+  - force_cast
+
+excluded:
+  - .git
+  - Pods
+  - Carthage
+  - DerivedData
